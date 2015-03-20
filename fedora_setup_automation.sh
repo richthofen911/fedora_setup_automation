@@ -5,7 +5,8 @@ read -p "input your sudo password: "
 #wget https://dl-ssl.google.com/linux/linux_signing_key.pub
 #echo $REPLY | sudo -S rpm --import linux_signing_key.pub
 #rm linux_signing_key.pub
-#echo -e "[google-chrome]\nname=google-chrome - \\\$basearch\nbaseurl=http://dl.google.com/linux/chrome/rpm/stable/\\\$basearch\nenabled=1\ngpgcheck=1" | sudo tee /etc/yum.repos.d/google-chrome.repo
+#echo -e "[google-chrome]\nname=google-chrome - \\\$basearch\nbaseurl=http://dl.google.com/linux/chrome/rpm/stable/\\\$basearch\nenabled=1\ngpgcheck=1" | tee google-chrome.repo
+#echo $REPLY | sudo -S mv google-chrome.repo /etc/yum.repos.d/
 #echo $REPLY | sudo -S yum install google-chrome-stable -y
 #echo $REPLY | sudo -S yum install emacs -y
 #echo $REPLY | sudo -S yum remove java* -y

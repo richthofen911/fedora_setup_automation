@@ -12,6 +12,7 @@ read -p "input your sudo password: "
 #echo $REPLY | sudo -S yum remove java* -y
 #wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u40-b26/jdk-8u40-linux-x64.rpm
 #echo $REPLY | sudo -S rpm -i jdk-8u40-linux-x64.rpm
+#rm jdk-8u40-linux-x64.rpm
 
 #------------system related------------------
 #echo $REPLY | sudo -S yum install libgnome -y

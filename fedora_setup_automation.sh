@@ -2,11 +2,15 @@
 read -p "input your sudo password: "
 
 #------------daily tools---------------
+#wget https://dl-ssl.google.com/linux/linux_signing_key.pub
+#echo $REPLY | sudo -S rpm --import linux_signing_key.pub
+#rm linux_signing_key.pub
+#echo -e "[google-chrome]\nname=google-chrome - \\\$basearch\nbaseurl=http://dl.google.com/linux/chrome/rpm/stable/\\\$basearch\nenabled=1\ngpgcheck=1" | sudo tee /etc/yum.repos.d/google-chrome.repo
 #echo $REPLY | sudo -S yum install google-chrome-stable -y
 #echo $REPLY | sudo -S yum install emacs -y
 #echo $REPLY | sudo -S yum remove java* -y
 #wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u40-b26/jdk-8u40-linux-x64.rpm
-#echo $REPLY | sudo -S rpm -i Downloads/jdk-8u40-linux-x64.rpm -y
+#echo $REPLY | sudo -S rpm -i jdk-8u40-linux-x64.rpm -y
 
 #------------system related------------------
 #echo $REPLY | sudo -S yum install libgnome -y

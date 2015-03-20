@@ -5,7 +5,7 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-# execute when start up
+# exec when start up
 nohup /home/richthofen80/Programming/gitPro/fedora_setup_automation/inotify_my_files.sh &
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:

@@ -2,9 +2,9 @@
 file1=/home/richthofen80/.bashrc
 file2=/home/richthofen80/.emacs
 
-dir1=/home/richthofen80/.emacs.d
+#dir1=/home/richthofen80/.emacs.d
 
-while inotifywait -mre modify,attrib,move,close_write $file1 $file2 $dir1; 
+while inotifywait -mre modify,attrib,move,close_write $file1 $file2; 
 do
 	nohup /home/richthofen80/Programming/gitPro/fedora_setup_automation/sync_customized_settings_to_github.sh &
 done

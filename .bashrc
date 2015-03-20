@@ -6,7 +6,6 @@ if [ -f /etc/bashrc ]; then
 fi
 
 
-
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 

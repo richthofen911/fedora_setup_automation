@@ -1,24 +1,24 @@
 #In settings, create alt+1, alt+2, alt+3 shortcuts 
-#echo qwe | sudo -S service httpd start
+read -p "input your sudo password: "
 
 #------------daily tools---------------
-#sudo yum install google-chrome-stable -y
-#sudo yum install emacs -y
-#sudo yum remove java* -y
+#echo $REPLY | sudo -S yum install google-chrome-stable -y
+#echo $REPLY | sudo -S yum install emacs -y
+#echo $REPLY | sudo -S yum remove java* -y
 #wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u40-b26/jdk-8u40-linux-x64.rpm
-#sudo rpm -i Downloads/jdk-8u40-linux-x64.rpm -y
+#echo $REPLY | sudo -S rpm -i Downloads/jdk-8u40-linux-x64.rpm -y
 
 #------------system related------------------
-#sudo yum install libgnome -y
-#sudo yum install gnome-tweak-tool -y
-#sudo yum install dconf-editor -y
-#sudo yum remove ibus -y
-#sudo yum install fcitx -y
-#sudo yum install fcitx-libpinyin -y
-#sudo yum install fcitx-configtool -y
-#sudo yum install im-chooser -y
+#echo $REPLY | sudo -S yum install libgnome -y
+#echo $REPLY | sudo -S yum install gnome-tweak-tool -y
+#echo $REPLY | sudo -S yum install dconf-editor -y
+#echo $REPLY | sudo -S yum remove ibus -y
+#echo $REPLY | sudo -S yum install fcitx -y
+#echo $REPLY | sudo -S yum install fcitx-libpinyin -y
+#echo $REPLY | sudo -S yum install fcitx-configtool -y
+#echo $REPLY | sudo -S yum install im-chooser -y
 #gsettings set org.gnome.settings-daemon.plugins.keyboard active false
-#sudo yum install inotify-tools -y
+#echo $REPLY | sudo -S yum install inotify-tools -y
 
 #touch Templates/newBlankDoc
 #touch Templates/newBlankPy.py
@@ -26,11 +26,11 @@
 #echo '#!/bin/bash' > Templates/newBlankSh.shtouch Templates/newBlankSh.sh
 
 #---------------web related-----------
-#sudo yum install httpd -y
-#sudo yum install nodejs -y
-#sudo yum install npm -y
-#sudo npm install express-generator -g
-#sudo yum install php -y
+#echo $REPLY | sudo -S yum install httpd -y
+#echo $REPLY | sudo -S yum install nodejs -y
+#echo $REPLY | sudo -S yum install npm -y
+#echo $REPLY | sudo -S npm install express-generator -g
+#echo $REPLY | sudo -S yum install php -y
 
 
 ###------dropbox installation and setup

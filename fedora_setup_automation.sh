@@ -41,7 +41,8 @@ read -p "input your sudo password: "
 
 ###------dropbox installation and setup
 #wget https://www.dropbox.com/download?dl=packages/fedora/nautilus-dropbox-2015.02.12-1.fedora.x86_64.rpm
-#echo $REPLY | sudo -S rpm -i download?dl=packages/fedora/nautilus-dropbox-2015.02.12-1.fedora.x86_64.rpm
+#echo $REPLY | sudo -S rpm -i download\?dl\=packages%2Ffedora%2Fnautilus-dropbox-2015.02.12-1.fedora.x86_64.rpm
+#rm download\?dl\=packages%2Ffedora%2Fnautilus-dropbox-2015.02.12-1.fedora.x86_64.rpm
 #echo "file:///home/richthofen80/Dropbox" >> ~/.config/gtk-3.0/bookmarks
 
 ###------android development related

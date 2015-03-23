@@ -9,6 +9,9 @@ read -p "input your sudo password: "
 #echo $REPLY | sudo -S mv google-chrome.repo /etc/yum.repos.d/
 #echo $REPLY | sudo -S yum install google-chrome-stable -y
 #echo $REPLY | sudo -S yum install emacs -y
+#mkdir .emacs.d/plugins/
+#rm .bashrc
+#wget https://raw.githubusercontent.com/richthofen911/fedora_setup_automation/master/.bashrc
 #echo $REPLY | sudo -S yum remove java* -y
 #wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u40-b26/jdk-8u40-linux-x64.rpm
 #echo $REPLY | sudo -S rpm -i jdk-8u40-linux-x64.rpm

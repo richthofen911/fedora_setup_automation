@@ -2,11 +2,16 @@
 read -p "input your sudo password: "
 
 #------------daily tools---------------
+#rm .bashrc
+#wget https://raw.githubusercontent.com/richthofen911/fedora_setup_automation/master/.bashrc
 #echo $REPLY | sudo -S yum install golang-pkg-bin-linux-amd64 -y
 #echo $REPLY | sudo -S yum install mercurial -y
 #mkdir ~/Programming
-#
+#mkdir ~/Programming/download
+#echo 'export GOPATH=~/Programming/download/' >> .bashrc
 #go get github.com/odeke-em/drive/cmd/drive
+#echo $REPLY | sudo -S ln -s ~/Programming/download/bin/drive /usr/local/bin
+
 #wget https://dl-ssl.google.com/linux/linux_signing_key.pub
 #echo $REPLY | sudo -S rpm --import linux_signing_key.pub
 #rm linux_signing_key.pub
@@ -15,8 +20,6 @@ read -p "input your sudo password: "
 #echo $REPLY | sudo -S yum install google-chrome-stable -y
 #echo $REPLY | sudo -S yum install emacs -y
 #cp -r Programming/fedora_setup_automation/.emacs.d ~/
-#rm .bashrc
-#wget https://raw.githubusercontent.com/richthofen911/fedora_setup_automation/master/.bashrc
 #echo $REPLY | sudo -S yum remove java* -y
 #wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u40-b26/jdk-8u40-linux-x64.rpm
 #echo $REPLY | sudo -S rpm -i jdk-8u40-linux-x64.rpm

@@ -9,7 +9,7 @@ read -p "input your sudo password: "
 #echo $REPLY | sudo -S mv google-chrome.repo /etc/yum.repos.d/
 #echo $REPLY | sudo -S yum install google-chrome-stable -y
 #echo $REPLY | sudo -S yum install emacs -y
-#mkdir .emacs.d/plugins/
+#cp -r Programming/fedora_setup_automation/.emacs.d ~/
 #rm .bashrc
 #wget https://raw.githubusercontent.com/richthofen911/fedora_setup_automation/master/.bashrc
 #echo $REPLY | sudo -S yum remove java* -y

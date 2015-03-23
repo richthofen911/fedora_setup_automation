@@ -16,6 +16,7 @@ nohup /home/richthofen80/Programming/gitPro/fedora_setup_automation/inotify_my_f
 alias android-studio="nohup ~/android-studio/bin/studio.sh &"
 alias android="sudo /opt/android-sdk-linux/tools/android"
 alias adb="/opt/android-sdk-linux/platform-tools/adb"
+alias fastboot="/opt/android-sdk-linux/platform-tools/fastboot"
 alias drive=~/Programming/golang/bin/drive
 alias mongo-express="node /usr/local/lib/node_modules/mongo-express/app.js"
 alias love="cd Programming/gitPro/Node.js/loveInXianlin"

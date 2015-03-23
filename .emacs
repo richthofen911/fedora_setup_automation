@@ -1,4 +1,3 @@
-(add-to-list 'load-path "~/.emacs.d/plugins/neotree")
 (add-to-list 'load-path "~/.emacs.d/plugins")
 
 (require 'neotree)

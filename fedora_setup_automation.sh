@@ -48,8 +48,9 @@ read -p "input your sudo password: "
 #echo "file:///home/richthofen80/Dropbox" >> ~/.config/gtk-3.0/bookmarks
 
 ###------android development related
+#echo $REPLY | sudo -S yum install android-tools
 #android studio latest download url, can be downloaded by crawler  http://tools.android.com/download/studio/canary/latest
-#android sdk download url, can be downloaded by crawler            http://developer.android.com/sdk/installing/index.html?pkg=tools
+#android sdk download url, can be downloaded by crawler            http://developer.android.com/sdk/index.html#top
 
 #settings
 #gnome-tweak-tool(add window list and swap ctrl/capslock), im-chooser, fcitx-configtool, 

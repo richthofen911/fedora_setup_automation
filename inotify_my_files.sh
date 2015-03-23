@@ -6,6 +6,6 @@ dir1=/home/richthofen80/.emacs.d
 
 while inotifywait -mre modify,attrib,move,close_write $file1 $file2 $dir1; 
 do
-	/home/richthofen80/Programming/gitPro/fedora_setup_automation/sync_customized_settings_to_github.sh
+	/home/richthofen80/Programming/fedora_setup_automation/sync_customized_settings_to_github.sh
 done
 

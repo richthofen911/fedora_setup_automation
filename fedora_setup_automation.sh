@@ -25,6 +25,9 @@ read -p "input your sudo password: "
 #echo $REPLY | sudo -S yum install im-chooser -y
 #gsettings set org.gnome.settings-daemon.plugins.keyboard active false
 #echo $REPLY | sudo -S yum install inotify-tools -y
+#echo $REPLY | sudo -S yum install glibc.i686
+#echo $REPLY | sudo -S yum install libstdc++.i686
+
 #wget -P Pictures/ http://wallpapers4linux.com/assets/large/dark-fedora-wallpaper.jpg
 #gsettings set org.gnome.desktop.background picture-uri ~/Pictures/dark-fedora-wallpaper.jpg
 

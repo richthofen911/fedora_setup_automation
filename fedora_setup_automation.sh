@@ -2,6 +2,7 @@
 read -p "input your sudo password: "
 
 #------------daily tools---------------
+#wget https://storage.googleapis.com/golang/go1.4.2.linux-amd64.tar.gz
 #wget https://dl-ssl.google.com/linux/linux_signing_key.pub
 #echo $REPLY | sudo -S rpm --import linux_signing_key.pub
 #rm linux_signing_key.pub

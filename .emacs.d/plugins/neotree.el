@@ -1130,4 +1130,3 @@ If cannot find any node in current line, it equivalent to using `neotree-dir'."
 
 (provide 'neotree)
 ;;; neotree.el ends here
-

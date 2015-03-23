@@ -2,7 +2,7 @@
 read -p "input your sudo password: "
 
 #------------daily tools---------------
-#echo $REPLY | sudo -S yum install golang-pkg-bin-linux-amd64.x86_64
+
 #wget https://dl-ssl.google.com/linux/linux_signing_key.pub
 #echo $REPLY | sudo -S rpm --import linux_signing_key.pub
 #rm linux_signing_key.pub

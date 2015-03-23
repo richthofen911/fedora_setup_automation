@@ -22,11 +22,6 @@ alias webstorm="nohup ~/Downloads/WebStorm/bin/webstorm.sh &"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
-# java-8 install and configuration
-export JAVA_HOME=/usr/local/java/jdk1.8.0_31
-export JRE_HOME=${JAVA_HOME}/jre
-export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
-export PATH=${JAVA_HOME}/bin:$PATH
 
 #go language
 export PATH=$HOME/Programming/golang/bin:$PATH

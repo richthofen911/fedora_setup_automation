@@ -2,7 +2,11 @@
 read -p "input your sudo password: "
 
 #------------daily tools---------------
-
+#echo $REPLY | sudo -S yum install golang-pkg-bin-linux-amd64 -y
+#echo $REPLY | sudo -S yum install mercurial -y
+#mkdir ~/Programming
+#
+#go get github.com/odeke-em/drive/cmd/drive
 #wget https://dl-ssl.google.com/linux/linux_signing_key.pub
 #echo $REPLY | sudo -S rpm --import linux_signing_key.pub
 #rm linux_signing_key.pub

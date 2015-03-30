@@ -27,6 +27,7 @@ read -p "input your sudo password: "
 
 #------------system related------------------
 #echo $REPLY | sudo -S yum install libgnome -y
+#echo $REPLY | sudo -S yum install zlib.i686 -y
 #echo $REPLY | sudo -S yum install gnome-tweak-tool -y
 #echo $REPLY | sudo -S yum install dconf-editor -y
 #echo $REPLY | sudo -S yum remove ibus -y
@@ -36,8 +37,8 @@ read -p "input your sudo password: "
 #echo $REPLY | sudo -S yum install im-chooser -y
 #gsettings set org.gnome.settings-daemon.plugins.keyboard active false
 #echo $REPLY | sudo -S yum install inotify-tools -y
-#echo $REPLY | sudo -S yum install glibc.i686
-#echo $REPLY | sudo -S yum install libstdc++.i686
+#echo $REPLY | sudo -S yum install glibc.i686 -y
+#echo $REPLY | sudo -S yum install libstdc++.i686 -y
 
 #wget -P Pictures/ http://wallpapers4linux.com/assets/large/dark-fedora-wallpaper.jpg
 #gsettings set org.gnome.desktop.background picture-uri ~/Pictures/dark-fedora-wallpaper.jpg
@@ -51,7 +52,7 @@ read -p "input your sudo password: "
 #echo $REPLY | sudo -S yum install httpd -y
 #echo $REPLY | sudo -S yum install nodejs -y
 #echo $REPLY | sudo -S yum install npm -y
-#echo $REPLY | sudo -S npm install express-generator -g
+#echo $REPLY | sudo -S npm install express-generator -g -y
 #echo $REPLY | sudo -S yum install php -y
 
 

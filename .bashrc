@@ -13,6 +13,7 @@ fi
 
 # User specific aliases and functions
 
+alias android="~/Programming/android-sdk-linux/tools/android"
 alias android-studio="nohup ~/Programming/android-studio/bin/studio.sh &"
 alias adb="~/Programming/android-sdk-linux/platform-tools/adb"
 alias fastboot="sudo ~/Programming/android-sdk-linux/platform-tools/fastboot"

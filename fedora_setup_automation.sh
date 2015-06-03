@@ -11,6 +11,7 @@ read -p "input your sudo password: "
 #echo 'export GOPATH=~/Programming/download/' >> .bashrc
 #go get github.com/odeke-em/drive/cmd/drive
 #echo $REPLY | sudo -S ln -s ~/Programming/download/bin/drive /usr/local/bin
+#echo $REPLY | sudo -S yum install tmux
 
 #wget https://dl-ssl.google.com/linux/linux_signing_key.pub
 #echo $REPLY | sudo -S rpm --import linux_signing_key.pub

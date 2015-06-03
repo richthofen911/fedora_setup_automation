@@ -15,7 +15,7 @@ read -p "input your sudo password: "
 #---------install rTorrent and config init file and dir structure
 #echo $REPLY | sudo -S yum install rtorrent
 #wget https://raw.githubusercontent.com/richthofen911/fedora_setup_automation/master/.rtorrent.rc
-#mkdir -p ~Downloads/RTDownload/session ~Downloads/RTDownload/torrent
+#mkdir -p ~/Downloads/RTDownload/session ~/Downloads/RTDownload/torrent
 
 #wget https://dl-ssl.google.com/linux/linux_signing_key.pub
 #echo $REPLY | sudo -S rpm --import linux_signing_key.pub

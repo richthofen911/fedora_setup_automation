@@ -1,7 +1,0 @@
-#!/bin/bash
-
-rm -rf .emacs.d
-cp 
-git add .
-git commit -m 'update'
-

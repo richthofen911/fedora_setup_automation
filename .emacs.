@@ -5,5 +5,7 @@
 
 (custom-set-variables '(inhibit-startup-screen t))
 (custom-set-faces )
+
 (setq make-backup-files nil)
+(setq auto-save-default nil)
 

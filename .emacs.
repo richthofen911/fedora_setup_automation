@@ -1,6 +1,7 @@
 (add-to-list 'load-path "~/.emacs.d/plugins")
 
 (require 'firecode-theme)
+(require 'smart-tabs-mode)
 
 (custom-set-variables '(inhibit-startup-screen t))
 (custom-set-faces )

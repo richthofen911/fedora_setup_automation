@@ -1,7 +1,6 @@
 (add-to-list 'load-path "~/.emacs.d/plugins")
 
-(require 'firecode-theme)
-(require 'smart-tabs-mode)
+(require 'darcular-theme)
 (require 'dockerfile-mode)
 (add-to-list 'auto-mode-alist '("Dockerfile\\'" . dockerfile-mode))
 

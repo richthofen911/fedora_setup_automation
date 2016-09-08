@@ -1,6 +1,6 @@
 (add-to-list 'load-path "~/.emacs.d/plugins")
 
-(require 'darcular-theme)
+(require 'darcula-theme)
 (require 'dockerfile-mode)
 (add-to-list 'auto-mode-alist '("Dockerfile\\'" . dockerfile-mode))
 
